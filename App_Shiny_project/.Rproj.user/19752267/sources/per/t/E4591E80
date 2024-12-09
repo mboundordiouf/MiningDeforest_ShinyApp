@@ -1,26 +1,26 @@
 {
-    "id": "F3769CE1",
-    "path": "C:/Users/diouf/Dropbox/githubUploads/MiningDeforest_ShinyApp/data/app.R",
+    "id": "E4591E80",
+    "path": "C:/Users/diouf/Dropbox/githubUploads/MiningDeforest_ShinyApp/app.R",
     "project_path": null,
     "type": "r_source",
-    "hash": "1227479120",
+    "hash": "1217974936",
     "contents": "",
     "dirty": false,
-    "created": 1733773702530.0,
+    "created": 1733774000194.0,
     "source_on_save": false,
-    "relative_order": 1,
+    "relative_order": 2,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "21,0",
-        "scrollLine": "18"
+        "cursorPosition": "15,12",
+        "scrollLine": "9"
     },
     "folds": "",
-    "lastKnownWriteTime": 1733773730,
+    "lastKnownWriteTime": 1733774032,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1733773730544,
+    "last_content_update": 1733774032602,
     "read_only": false,
     "read_only_alternatives": []
 }

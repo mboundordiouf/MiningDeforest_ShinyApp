@@ -3,7 +3,7 @@
     "path": "C:/Users/diouf/Dropbox/githubUploads/MiningDeforest_ShinyApp/app.R",
     "project_path": null,
     "type": "r_source",
-    "hash": "0",
+    "hash": "1227479120",
     "contents": "",
     "dirty": false,
     "created": 1733770221629.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "230,0",
-        "scrollLine": "211"
+        "cursorPosition": "23,23",
+        "scrollLine": "13"
     },
     "folds": "",
-    "lastKnownWriteTime": 1733768930,
+    "lastKnownWriteTime": 1733770389,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1733768930,
+    "last_content_update": 1733770389492,
     "read_only": false,
     "read_only_alternatives": []
 }

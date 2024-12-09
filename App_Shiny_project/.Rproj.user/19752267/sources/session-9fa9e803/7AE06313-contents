@@ -1,8 +1,8 @@
 # Libraries ----
 rm(list = ls())
- library(shiny)
- library(shinydashboard)
- library(shinyjs)
+# library(shiny)
+# library(shinydashboard)
+# library(shinyjs)
 library(tidyverse)
 
 
@@ -23,7 +23,7 @@ library(broom.mixed)
 # Initialize Data ----
 #######################
 
-df <- haven::read_dta("C:\\Users\\diouf\\Dropbox\\githubUploads\\MiningDeforest_ShinyApp\\data\\DataOnly_FOREST.dta") 
+df <- haven::read_dta("C:\\Users\\diouf\\Dropbox\\githubUploads\\MiningDeforest_ShinyApp\\data\\Data_all_YearlyTSDID_Only_FOREST.dta") 
 df$chc_year_exp<- df$authyear
 df$fips<-df$gid
 df$rel_year<-df$tau
@@ -227,7 +227,6 @@ server <- function(input, output) {
   # output$table <- renderTable({
   #   datasetInput()
   # })
-
 
 
 

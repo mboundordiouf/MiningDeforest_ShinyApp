@@ -1,0 +1,2 @@
+library(shiny)
+runGitHub(repo= "MiningDeforest_ShinyApp", user="mboundordiouf", ref= "main")

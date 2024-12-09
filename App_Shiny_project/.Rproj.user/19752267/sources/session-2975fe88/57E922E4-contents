@@ -23,7 +23,7 @@ library(broom.mixed)
 # Initialize Data ----
 #######################
 
-df <- haven::read_dta("C:/Users/diouf/Dropbox/githubUploads/MiningDeforest_ShinyApp/DataOnly_FOREST.dta") 
+df <- haven::read_dta("DataOnly_FOREST.dta") 
 df$chc_year_exp<- df$authyear
 df$fips<-df$gid
 df$rel_year<-df$tau
@@ -43,21 +43,21 @@ df_het$log_nlights_mean <-  log(df_het$nlights_mean +1)
 
 dat  <- df_het
 ########################
-df_spill<-haven::read_dta("C:/Users/diouf/Dropbox/githubUploads/MiningDeforest_ShinyApp/Grid_def_spill_MinesData_Cool_OnlyFOREST.dta")
+df_spill<-haven::read_dta("Grid_def_spill_MinesData_Cool_OnlyFOREST.dta")
 df_spill$authyear <-df_spill$year_within_25
 df_spill$tau <-df_spill$spill_rel_year_SUNAB
 
-df_spill_drop_cont<-haven::read_dta("C:/Users/diouf/Dropbox/githubUploads/MiningDeforest_ShinyApp/Grid_def_spill_MinesData_Cool_drop_spill_conrol_Only_Forest.dta")
+df_spill_drop_cont<-haven::read_dta("Grid_def_spill_MinesData_Cool_drop_spill_conrol_Only_Forest.dta")
 
 ##################Buffer Zone####################################
 # List of file paths
 file_paths <- c(
-  "C:/Users/diouf/Dropbox/githubUploads/MiningDeforest_ShinyApp/Data_Buffers10_country.dta",
-  "C:/Users/diouf/Dropbox/githubUploads/MiningDeforest_ShinyApp/Data_Buffers10_20_country.dta",
-  "C:/Users/diouf/Dropbox/githubUploads/MiningDeforest_ShinyApp/Data_Buffers20_30_country.dta",
-  "C:/Users/diouf/Dropbox/githubUploads/MiningDeforest_ShinyApp/Data_Buffers30_40_country.dta",
-  "C:/Users/diouf/Dropbox/githubUploads/MiningDeforest_ShinyApp/Data_Buffers40_50_country.dta",
-  "C:/Users/diouf/Dropbox/githubUploads/MiningDeforest_ShinyApp/Data_Buffers50_70_country.dta"
+  "Data_Buffers10_country.dta",
+  "Data_Buffers10_20_country.dta",
+  "Data_Buffers20_30_country.dta",
+  "Data_Buffers30_40_country.dta",
+  "Data_Buffers40_50_country.dta",
+  "Data_Buffers50_70_country.dta"
 )
 
 # Read data files into a list of data frames
